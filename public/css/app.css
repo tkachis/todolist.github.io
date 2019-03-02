@@ -1,6 +1,6 @@
 body {
     background-color: #fafafa;
-    color: #757575;
+    color: #4D4D4C;
     font-family: 'Consolas', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 1em;
@@ -40,11 +40,12 @@ button {
 }
 
 button:hover {
-    background-color: rgba(158,158,158,.2);
+    background-color: #4D4D4C;
+    color: #F2F2E3;
 }
 
 button:active {
-    background-color: rgba(158,158,158,.4);
+    background-color: #4D4D4C;
 }
 
 button.icon {
@@ -94,17 +95,29 @@ header {
     align-items: center;
     padding: 0 1rem;
     color: white;
-    background-color: #f0db4f;
+    background-color: #FFE066;
     text-align: center;
     text-transform: uppercase;
 }
 
 header h1 {
     display: inline-block;
-    color: #323330;
+    color: #4D4D4C;
     margin: 1rem auto;
 }
 
+h5 {
+    text-align: center;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #4D4D4C;
+}
+
+h5 a:hover {
+    text-decoration: underline;
+}
 
 
 /* Todo Item */
@@ -167,7 +180,7 @@ header h1 {
 
 #todo-form {
     display: flex;
-    background-color: #FAFAFA;
+    background-color: #F9F9F3;
     border-top: 1px solid rgba(0,0,0,.1);
     padding: 10px;
 }
@@ -176,10 +189,6 @@ header h1 {
     flex: 1;
     outline: none;
     transition: all .2s;
-}
-
-#todo-form input:focus {
-    border: 1px solid #f0db4f;
 }
 
 #todo-form button {
